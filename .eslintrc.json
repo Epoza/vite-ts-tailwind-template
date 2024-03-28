@@ -6,7 +6,8 @@
     "extends": [
         "airbnb-base",
         "airbnb-typescript/base",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     
     "parser": "@typescript-eslint/parser",
@@ -16,7 +17,8 @@
         "project": "./tsconfig.json"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
         "no-param-reassign": [2, { "props": false }]
